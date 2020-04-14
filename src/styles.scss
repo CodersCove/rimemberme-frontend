@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/styles/colors";
+@import "./assets/styles/fonts.scss";
+
+html {
+  height: 100%;
+
+  body {
+    height: 100%;
+    position: relative;
+    background: $primary_grey;
+    font-family: $nsd_regular, sans-serif;
+  }
+}
+
+header {
+  position: relative;
+}
+
+/* ------------- */
+
+/* overriding default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  border: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.primary-font {
+  color: $light_blue;
+  font-family: $nsd_medium;
+}
